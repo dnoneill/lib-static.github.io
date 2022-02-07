@@ -1,22 +1,21 @@
 /* add your scss tweaks here */
 #site-header {
-    margin-top: 7rem;
-    margin-bottom: 2rem;
+   // img { max-width: 500px; }
 }
-.nav-link {
-    img { max-height: 45px; }
-}
-.section-heading {
-    img { max-height: 80px; }
+.navbar-nav {
+    .nav-item {
+        text-transform: uppercase;
+    }
 }
 .content-narrow {
-    max-width: 740px;
+    max-width: 870px;
 }
-
 // customize nav 
 .navbar-light .navbar-toggler-icon {
     background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(11, 94, 215)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(11, 94, 215);
+   color: black;
 }
+.nav-link.active { border: 1px solid black; }
+.lead { font-size: 2.25rem; }

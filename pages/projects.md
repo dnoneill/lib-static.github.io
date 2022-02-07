@@ -1,12 +1,13 @@
 ---
-title: Projects
+title: Lib-Static Projects &amp; Models
 nav: Projects &amp; Models
 nav_order: 2
 section: Projects
 foot: js/masonry.html
+layout: list
 ---
 
-projects include unique digital scholarship and digital collection initiatives, as well as applications and templates designed to create lib-static powered projects.
+Projects include <a href="" class="btn btn-outline-primary">Models of</a> unique digital scholarship and digital collection initiatives, as well as applications and templates designed to create lib-static powered projects.
 
 <div class="row" data-masonry='{"percentPosition": true }'>
     {% for i in site.projects %}
