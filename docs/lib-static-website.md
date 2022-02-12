@@ -8,7 +8,7 @@ Inside are three collections:
 
 - "_community" - describe pathways, social stacks, discussion forums, 
 - "_concepts" - describe 
-- "_projects" - describe static web projects 
+- "_models" - describe static web projects 
 
 ## Content Front Matter 
 
@@ -42,7 +42,7 @@ Please choose from the controlled vocabs of each collection for best results.
 
 - Community types: contribute; social stack; pathways
 - Concept types: concepts
-- Project types: Models Of (Projects);Models For (Frameworks & Templates)
+- Model types: Models Of (Projects);Models For (Frameworks & Templates)
 
 ### contributor (optional, but suggested)
 
@@ -118,7 +118,7 @@ In general, try to keep the content fairly simple Markdown to enable migration /
 
 Expected contents are different depending on the section and type of content.
 
-For items in "projects" the content should cover:
+For items in "models" the content should cover:
 
 - What the project does / description
 - Why the project was created
