@@ -7,10 +7,12 @@ layout: default
     {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
 
     <div class="content-narrow mx-auto">
-        <p class="mb-4"><small>{% if page.contributor %}contributor: {% include contributors.html people=page.contributor %}{% endif %}{% if page.contributor and page.updated %} | {% endif %}{% if page.updated %}last update: {{ page.updated }}{% endif %}</small></p>
         
         {% if page.image %}<img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" class="img-fluid border rounded">{% endif %}
 
         {{ content }}
+
+        <p class="mb-4"><small>{% if page.contributor %}contributor: {% include contributors.html people=page.contributor %}{% endif %}{% if page.contributor and page.updated %} | {% endif %}{% if page.updated %}last update: {{ page.updated }}{% endif %}</small></p>
+        
     </div>
 </div>
