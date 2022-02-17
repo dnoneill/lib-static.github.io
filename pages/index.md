@@ -68,10 +68,9 @@ Lib-Static is a provocation to rethink how we do digital infrastructure in libra
                     <input type="radio" class="btn-check" name="filterRadio" id="filter-{{ t | slugify }}" autocomplete="off" value="{{ t }}">
                     <label class="btn btn-outline-primary m-1" for="filter-{{ t | slugify }}">{{ t }}</label>
                     {% endfor %}
-        
                 </p>
             </div>
         </div>
     </div>
-    <div class="mt-5 list row"></div>
+    <div class="mt-5 list row row-cols-1 row-cols-md-4"></div>
 </div>

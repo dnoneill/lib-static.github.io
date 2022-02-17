@@ -60,13 +60,13 @@
                     borderColor = "";
             }
             if(values.listImg) {
-                cardImg = `<p class="text-center"><img src="${values.listImg}" class="img-fluid" alt="${values.listImgAlt}"></p>`;
+                cardImg = `<p class="text-center"><img src="${values.listImg}" class="img-fluid list-img" alt="${values.listImgAlt}"></p>`;
             } 
             if(values.listGenre) { 
                 cardGenre = ` : ${values.listGenre.split(";").join(" ;")}`;
             } 
-            var card = `<div class="col-sm-6">
-                <div class="card mb-3 ${borderColor}">
+            var card = `<div class="col mb-3">
+                <div class="card h-100 ${borderColor}">
                     <div class="card-body">
                         <h3 class="card-title"><a class="listTitle" href="${values.listLink}">${values.listTitle}</a></h3>
                         <p class="card-text"><strong class="listType">${values.listType}</strong> ${cardGenre}</p>${cardImg}
